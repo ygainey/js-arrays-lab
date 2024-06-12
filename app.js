@@ -149,7 +149,7 @@ const hasSoup = foods.includes('soup')
 
 console.log('Exercise 10 result:', hasSoup);
 
-
+/*
 for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
@@ -164,7 +164,7 @@ arr.forEach((element) => {
 });
   
 
-/*
+
 Exercise 11: Odd numbers from an array
 
 1) Choose a method to iterate through the `nums` array.
@@ -265,8 +265,19 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-num = numArrays[2][1]
+const num = numArrays[2][1]
 
+/*
+let num = 0;
+
+for(let i = 0; i < numArrays.length; i++){
+    for (let j = 0; j < i.length; j++){
+        if (j == 66){
+            num = numArrays[i][j];
+        }
+    }
+}
+*/
 console.log('Exercise 14 result:', num);
 
 
